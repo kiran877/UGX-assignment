@@ -1,0 +1,63 @@
+/* Dashboard styles */
+.dashboard {
+    padding: 20px;
+    background-color: #f5f6fa;
+    flex-grow: 1;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Card grid for main metrics */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    flex: 1;
+  }
+  
+  /* Chart section */
+  .chart-section {
+    flex: 1;
+    min-width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cards container for PowerConsumption and CurrentPowerConsumption */
+  .cards-container {
+    display: grid;
+    grid-template-columns: 80% 100%;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+  }
+  
+  /* Power Consumption card styling */
+  .power-consumption {
+    grid-column: 1 / 2;
+    border-radius: 10px;
+    
+    height: 250px; /* Ensure both cards have the same height */
+  }
+  
+  /* Current Power Consumption card styling */
+  .current-power-consumption {
+    grid-column: 2 / 3;
+    border-radius: 10px;
+    
+   
+    height: 250px; /* Same height as PowerConsumption */
+  }
+  

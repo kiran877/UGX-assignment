@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #1e2749;
+  color: #fff;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
